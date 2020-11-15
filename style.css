@@ -161,7 +161,7 @@ header .cleanershrimps {
 header nav ul {
   display: block;
   margin: 0 auto;
-  width: fit-content; /*needs this in order to center because otherwise the unordered list of menu items takes up the whole length of the page, and therefore will already be "centered */"
+  width: fit-content; /*needs this in order to center because otherwise the unordered list of menu items takes up the whole length of the page, and therefore will already be "centered */
 }
 
 header nav ul li {
