@@ -161,7 +161,7 @@ header .cleanershrimps {
 header nav ul {
   display: block;
   margin: 0 auto;
-  width: fit-content; /*needs this in order to center because otherwise the unordered list of menu items takes up the whole length of the page, and therefore will already be "centered */
+  width: fit-content; /*needs this in order to center because otherwise the unordered list of menu items takes up the whole length of the page, and therefore will already be "centered */"
 }
 
 header nav ul li {
@@ -222,11 +222,11 @@ main img {
   padding-top: 15px;
 }
 
-.center {
+.center-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
 }
 
 .index-banner {
@@ -276,8 +276,8 @@ main img {
   .index-banner h1 {
     /*font-size: 64px;
     line-height: 76px;*/
-    font-size: 58px;
-    line-height: 66px;
+    font-size: 48px; /*originally 58px */
+    line-height: 56px; /*originally 66px */
     text-shadow: 3px 3px 5px var(--text-color);
   }
 
@@ -285,7 +285,7 @@ main img {
     display: block;
     width: 560px;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 38px; /*increasing spacing between lines*/
   }
 
@@ -356,7 +356,7 @@ main img {
   .mission-info h1 {
     /*font-size: 64px;
     line-height: 76px;*/
-    font-size: 58px;
+    font-size: 48px; /*originally 58px*/
     line-height: 66px;
     text-shadow: 3px 3px 5px var(--text-color);
   }
@@ -417,7 +417,7 @@ main img {
   .contact-info h1 {
     /*font-size: 64px;
     line-height: 76px;*/
-    font-size: 58px;
+    font-size: 48px; /*originally 58px*/
     line-height: 66px;
     text-shadow: 3px 3px 5px var(--text-color);
   }
@@ -432,7 +432,6 @@ main img {
     padding-bottom: 20px;
   }
 }
-
 /*ABOUT*/
 
 .about-description {
@@ -474,7 +473,7 @@ main img {
 @media only screen and (min-width: 1000px) {
 
   .about-description h1 {
-    font-size: 58px;
+    font-size: 48px; /*originally 58px*/
     line-height: 66px;
     text-shadow: 3px 3px 5px var(--text-color);
   }
@@ -523,7 +522,7 @@ main img {
 
   .left-image {
     padding: 0px;
-    background-color: pink;
+    background-color: white;
   }
 
 }
@@ -543,7 +542,7 @@ footer {
   width: calc(100% - 80px);
   padding: 40px 40px;
   margin-top: 20px;
-  background-color: var(--text-color);/*#111;*/
+  background-color: #111; /*var(--text-color);/*#111;*/
   overflow: hidden; /*this fixes the size of the black box - there are problems when there are lots of floats inside a box, so this resizes it so it doesn't get cut off. To see what it does, try commenting it out */
 }
 
